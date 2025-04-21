@@ -1,0 +1,15 @@
+body {
+    background-color: #121212;
+  }
+  
+  .card {
+    background-color: #1f1f1f;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card i {
+    margin-right: 8px;
+    color: #ffc107;
+  }
+  
