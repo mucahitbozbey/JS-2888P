@@ -11,7 +11,7 @@ const container = document.getElementById("userContainer");
 })();
 
 function renderUsers(users) {
-  users.forEach(user => {
+  users.forEach((user) => {
     const col = document.createElement("div");
     col.className = "col-md-6 col-lg-4";
 
@@ -39,6 +39,9 @@ function renderUsers(users) {
             <i class="fas fa-globe"></i> <a href="http://${user.website}" target="_blank">${user.website}</a>
           </p>
         </div>
+        <a href="posts.html?userId=${user.id}" class="btn btn-sm btn-warning mt-2">
+  Gönderileri Görüntüle
+</a>
       </div>
     `;
 
